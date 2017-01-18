@@ -1,0 +1,17 @@
+{
+  "name": "typescirpt-ground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc app.ts && node app.js",
+    "start": "nodemon -e ts --exec \"npm run compile\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hckrmoon <hckrmoon@ncsoft.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.1.0"
+  }
+}
