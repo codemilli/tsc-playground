@@ -3,14 +3,9 @@
  */
 
 
-function greeter(person: string) {
-    return "Hello, " + person;
-}
+/**
+ * Basic
+ */
 
-class Foo {
-    static members = "1234";
-}
-
-console.log('haha', Foo.members);
-
-var user = "Hello";
+import ArrowFunction from './basic/arrow_function';
+ArrowFunction()
